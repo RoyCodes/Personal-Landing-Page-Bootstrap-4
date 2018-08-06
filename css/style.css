@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used for the background*/
+    background-image: url("https://www.example.com/image.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* The opacity of the background image*/
+    opacity: 0.65;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*display:flex; */
+}
+
+h1.display-4, p.lead{
+    text-align: center;
+}
